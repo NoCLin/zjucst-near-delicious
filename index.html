@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>浙大软院附近美食分享</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="https://cdn.bootcss.com/docsify/4.9.4/themes/vue.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="app">加载中...</div>
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+    <script>
+        window.$docsify = {
+            el: '#app',
+            name: '浙大软院附近美食分享',
+            repo: "NoCLin/zjucst-near-delicious",
+            auto2top: true,
+            relativePath: true,
+            loadSidebar: true,
+            loadNavbar: false,
+            alias: {
+                '/.*/_navbar.md': '/_navbar.md',
+                '/.*/_sidebar.md': '/_sidebar.md',
+            },
+            subMaxLevel: 5,
+            formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}',
+            plugins: [
+                EditOnGithubPlugin.create("https://github.com/NoCLin/zjucst-near-delicious/blob/master/", null, "Edit on Github")
+            ]
+
+        }
+    </script>
+
+    <script src="https://cdn.bootcss.com/docsify/4.9.4/docsify.min.js"></script>
+</body>
+<script src='https://topurl.cn/chat.js'></script>
+
+</html>
